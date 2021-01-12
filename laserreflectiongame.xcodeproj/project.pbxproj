@@ -1,0 +1,667 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EB0067B6239A965300C27357 /* field.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB0067B5239A965300C27357 /* field.swift */; };
+		EB077EDD238E81E5002F3335 /* define.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB077EDC238E81E5002F3335 /* define.swift */; };
+		EB0B31792420F47500A2B58D /* laserlogic.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB0B31782420F47500A2B58D /* laserlogic.swift */; };
+		EB1EFA2623FB667100800AD5 /* gamelogic.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB1EFA2523FB667100800AD5 /* gamelogic.swift */; };
+		EB2860EC23AC612C00E7B03C /* draw.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB2860EB23AC612C00E7B03C /* draw.swift */; };
+		EB2860EE23AC65B100E7B03C /* laser.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB2860ED23AC65B100E7B03C /* laser.swift */; };
+		EB568E89238E93DF0088B1F7 /* Block.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB568E88238E93DF0088B1F7 /* Block.swift */; };
+		EB5C8A662431983500DECF87 /* GameTitle.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB5C8A652431983500DECF87 /* GameTitle.swift */; };
+		EB5C8A682431985100DECF87 /* GameTitle.sks in Resources */ = {isa = PBXBuildFile; fileRef = EB5C8A672431985100DECF87 /* GameTitle.sks */; };
+		EBAFFD52240979930080CC53 /* gamemain.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBAFFD51240979930080CC53 /* gamemain.swift */; };
+		EBE3F46C25AC5DE900CC05DC /* GameKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EBE3F46B25AC5DE900CC05DC /* GameKit.framework */; };
+		EBE690CC24401C0600F42526 /* Howto.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBE690CB24401C0600F42526 /* Howto.swift */; };
+		EBE690CE24401C2C00F42526 /* Howto.sks in Resources */ = {isa = PBXBuildFile; fileRef = EBE690CD24401C2C00F42526 /* Howto.sks */; };
+		EBF63504238D487F00C28296 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBF63503238D487F00C28296 /* AppDelegate.swift */; };
+		EBF6350A238D488000C28296 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBF63509238D488000C28296 /* GameScene.swift */; };
+		EBF6350C238D488000C28296 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBF6350B238D488000C28296 /* GameViewController.swift */; };
+		EBF6350F238D488000C28296 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EBF6350D238D488000C28296 /* Main.storyboard */; };
+		EBF63511238D488700C28296 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EBF63510238D488700C28296 /* Assets.xcassets */; };
+		EBF63514238D488700C28296 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EBF63512238D488700C28296 /* LaunchScreen.storyboard */; };
+		EBF6351F238D488800C28296 /* laserreflectiongameTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBF6351E238D488800C28296 /* laserreflectiongameTests.swift */; };
+		EBF6352A238D488800C28296 /* laserreflectiongameUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBF63529238D488800C28296 /* laserreflectiongameUITests.swift */; };
+		EBF6353A238D49E400C28296 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = EBF63539238D49E400C28296 /* GameScene.sks */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EBF6351B238D488800C28296 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EBF634F8238D487F00C28296 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EBF634FF238D487F00C28296;
+			remoteInfo = laserreflectiongame;
+		};
+		EBF63526238D488800C28296 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EBF634F8238D487F00C28296 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EBF634FF238D487F00C28296;
+			remoteInfo = laserreflectiongame;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EB0067B5239A965300C27357 /* field.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = field.swift; sourceTree = "<group>"; };
+		EB077EDC238E81E5002F3335 /* define.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = define.swift; sourceTree = "<group>"; };
+		EB0B31782420F47500A2B58D /* laserlogic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = laserlogic.swift; sourceTree = "<group>"; };
+		EB1EFA2523FB667100800AD5 /* gamelogic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = gamelogic.swift; sourceTree = "<group>"; };
+		EB2860EB23AC612C00E7B03C /* draw.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = draw.swift; sourceTree = "<group>"; };
+		EB2860ED23AC65B100E7B03C /* laser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = laser.swift; sourceTree = "<group>"; };
+		EB568E88238E93DF0088B1F7 /* Block.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Block.swift; sourceTree = "<group>"; };
+		EB5C8A652431983500DECF87 /* GameTitle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameTitle.swift; sourceTree = "<group>"; };
+		EB5C8A672431985100DECF87 /* GameTitle.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameTitle.sks; sourceTree = "<group>"; };
+		EBAFFD51240979930080CC53 /* gamemain.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = gamemain.swift; sourceTree = "<group>"; };
+		EBE3F46B25AC5DE900CC05DC /* GameKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GameKit.framework; path = System/Library/Frameworks/GameKit.framework; sourceTree = SDKROOT; };
+		EBE690CB24401C0600F42526 /* Howto.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Howto.swift; sourceTree = "<group>"; };
+		EBE690CD24401C2C00F42526 /* Howto.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Howto.sks; sourceTree = "<group>"; };
+		EBF63500238D487F00C28296 /* laserreflectiongame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = laserreflectiongame.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EBF63503238D487F00C28296 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EBF63509238D488000C28296 /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
+		EBF6350B238D488000C28296 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		EBF6350E238D488000C28296 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EBF63510238D488700C28296 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EBF63513238D488700C28296 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EBF63515238D488700C28296 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EBF6351A238D488800C28296 /* laserreflectiongameTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = laserreflectiongameTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EBF6351E238D488800C28296 /* laserreflectiongameTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = laserreflectiongameTests.swift; sourceTree = "<group>"; };
+		EBF63520238D488800C28296 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EBF63525238D488800C28296 /* laserreflectiongameUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = laserreflectiongameUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EBF63529238D488800C28296 /* laserreflectiongameUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = laserreflectiongameUITests.swift; sourceTree = "<group>"; };
+		EBF6352B238D488800C28296 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EBF63539238D49E400C28296 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EBF634FD238D487F00C28296 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EBE3F46C25AC5DE900CC05DC /* GameKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EBF63517238D488800C28296 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EBF63522238D488800C28296 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EBE3F46A25AC5DE900CC05DC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EBE3F46B25AC5DE900CC05DC /* GameKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EBF634F7238D487F00C28296 = {
+			isa = PBXGroup;
+			children = (
+				EBF63502238D487F00C28296 /* laserreflectiongame */,
+				EBF6351D238D488800C28296 /* laserreflectiongameTests */,
+				EBF63528238D488800C28296 /* laserreflectiongameUITests */,
+				EBF63501238D487F00C28296 /* Products */,
+				EBE3F46A25AC5DE900CC05DC /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		EBF63501238D487F00C28296 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EBF63500238D487F00C28296 /* laserreflectiongame.app */,
+				EBF6351A238D488800C28296 /* laserreflectiongameTests.xctest */,
+				EBF63525238D488800C28296 /* laserreflectiongameUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EBF63502238D487F00C28296 /* laserreflectiongame */ = {
+			isa = PBXGroup;
+			children = (
+				EBF63503238D487F00C28296 /* AppDelegate.swift */,
+				EB077EDC238E81E5002F3335 /* define.swift */,
+				EB2860ED23AC65B100E7B03C /* laser.swift */,
+				EB0067B5239A965300C27357 /* field.swift */,
+				EB568E88238E93DF0088B1F7 /* Block.swift */,
+				EB2860EB23AC612C00E7B03C /* draw.swift */,
+				EB5C8A672431985100DECF87 /* GameTitle.sks */,
+				EB5C8A652431983500DECF87 /* GameTitle.swift */,
+				EBE690CD24401C2C00F42526 /* Howto.sks */,
+				EBE690CB24401C0600F42526 /* Howto.swift */,
+				EB0B31782420F47500A2B58D /* laserlogic.swift */,
+				EB1EFA2523FB667100800AD5 /* gamelogic.swift */,
+				EBAFFD51240979930080CC53 /* gamemain.swift */,
+				EBF63539238D49E400C28296 /* GameScene.sks */,
+				EBF63509238D488000C28296 /* GameScene.swift */,
+				EBF6350B238D488000C28296 /* GameViewController.swift */,
+				EBF6350D238D488000C28296 /* Main.storyboard */,
+				EBF63510238D488700C28296 /* Assets.xcassets */,
+				EBF63512238D488700C28296 /* LaunchScreen.storyboard */,
+				EBF63515238D488700C28296 /* Info.plist */,
+			);
+			path = laserreflectiongame;
+			sourceTree = "<group>";
+		};
+		EBF6351D238D488800C28296 /* laserreflectiongameTests */ = {
+			isa = PBXGroup;
+			children = (
+				EBF6351E238D488800C28296 /* laserreflectiongameTests.swift */,
+				EBF63520238D488800C28296 /* Info.plist */,
+			);
+			path = laserreflectiongameTests;
+			sourceTree = "<group>";
+		};
+		EBF63528238D488800C28296 /* laserreflectiongameUITests */ = {
+			isa = PBXGroup;
+			children = (
+				EBF63529238D488800C28296 /* laserreflectiongameUITests.swift */,
+				EBF6352B238D488800C28296 /* Info.plist */,
+			);
+			path = laserreflectiongameUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EBF634FF238D487F00C28296 /* laserreflectiongame */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EBF6352E238D488800C28296 /* Build configuration list for PBXNativeTarget "laserreflectiongame" */;
+			buildPhases = (
+				EBF634FC238D487F00C28296 /* Sources */,
+				EBF634FD238D487F00C28296 /* Frameworks */,
+				EBF634FE238D487F00C28296 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = laserreflectiongame;
+			productName = laserreflectiongame;
+			productReference = EBF63500238D487F00C28296 /* laserreflectiongame.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EBF63519238D488800C28296 /* laserreflectiongameTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EBF63531238D488800C28296 /* Build configuration list for PBXNativeTarget "laserreflectiongameTests" */;
+			buildPhases = (
+				EBF63516238D488800C28296 /* Sources */,
+				EBF63517238D488800C28296 /* Frameworks */,
+				EBF63518238D488800C28296 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EBF6351C238D488800C28296 /* PBXTargetDependency */,
+			);
+			name = laserreflectiongameTests;
+			productName = laserreflectiongameTests;
+			productReference = EBF6351A238D488800C28296 /* laserreflectiongameTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		EBF63524238D488800C28296 /* laserreflectiongameUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EBF63534238D488800C28296 /* Build configuration list for PBXNativeTarget "laserreflectiongameUITests" */;
+			buildPhases = (
+				EBF63521238D488800C28296 /* Sources */,
+				EBF63522238D488800C28296 /* Frameworks */,
+				EBF63523238D488800C28296 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EBF63527238D488800C28296 /* PBXTargetDependency */,
+			);
+			name = laserreflectiongameUITests;
+			productName = laserreflectiongameUITests;
+			productReference = EBF63525238D488800C28296 /* laserreflectiongameUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EBF634F8238D487F00C28296 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1120;
+				LastUpgradeCheck = 1230;
+				ORGANIZATIONNAME = Owner;
+				TargetAttributes = {
+					EBF634FF238D487F00C28296 = {
+						CreatedOnToolsVersion = 11.2.1;
+					};
+					EBF63519238D488800C28296 = {
+						CreatedOnToolsVersion = 11.2.1;
+						TestTargetID = EBF634FF238D487F00C28296;
+					};
+					EBF63524238D488800C28296 = {
+						CreatedOnToolsVersion = 11.2.1;
+						TestTargetID = EBF634FF238D487F00C28296;
+					};
+				};
+			};
+			buildConfigurationList = EBF634FB238D487F00C28296 /* Build configuration list for PBXProject "laserreflectiongame" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EBF634F7238D487F00C28296;
+			productRefGroup = EBF63501238D487F00C28296 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EBF634FF238D487F00C28296 /* laserreflectiongame */,
+				EBF63519238D488800C28296 /* laserreflectiongameTests */,
+				EBF63524238D488800C28296 /* laserreflectiongameUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EBF634FE238D487F00C28296 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EBF6353A238D49E400C28296 /* GameScene.sks in Resources */,
+				EBF6350F238D488000C28296 /* Main.storyboard in Resources */,
+				EB5C8A682431985100DECF87 /* GameTitle.sks in Resources */,
+				EBF63511238D488700C28296 /* Assets.xcassets in Resources */,
+				EBF63514238D488700C28296 /* LaunchScreen.storyboard in Resources */,
+				EBE690CE24401C2C00F42526 /* Howto.sks in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EBF63518238D488800C28296 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EBF63523238D488800C28296 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EBF634FC238D487F00C28296 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EBAFFD52240979930080CC53 /* gamemain.swift in Sources */,
+				EB0067B6239A965300C27357 /* field.swift in Sources */,
+				EB5C8A662431983500DECF87 /* GameTitle.swift in Sources */,
+				EBF6350A238D488000C28296 /* GameScene.swift in Sources */,
+				EBF6350C238D488000C28296 /* GameViewController.swift in Sources */,
+				EB0B31792420F47500A2B58D /* laserlogic.swift in Sources */,
+				EB2860EC23AC612C00E7B03C /* draw.swift in Sources */,
+				EB1EFA2623FB667100800AD5 /* gamelogic.swift in Sources */,
+				EBE690CC24401C0600F42526 /* Howto.swift in Sources */,
+				EB568E89238E93DF0088B1F7 /* Block.swift in Sources */,
+				EB2860EE23AC65B100E7B03C /* laser.swift in Sources */,
+				EB077EDD238E81E5002F3335 /* define.swift in Sources */,
+				EBF63504238D487F00C28296 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EBF63516238D488800C28296 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EBF6351F238D488800C28296 /* laserreflectiongameTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EBF63521238D488800C28296 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EBF6352A238D488800C28296 /* laserreflectiongameUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EBF6351C238D488800C28296 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EBF634FF238D487F00C28296 /* laserreflectiongame */;
+			targetProxy = EBF6351B238D488800C28296 /* PBXContainerItemProxy */;
+		};
+		EBF63527238D488800C28296 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EBF634FF238D487F00C28296 /* laserreflectiongame */;
+			targetProxy = EBF63526238D488800C28296 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EBF6350D238D488000C28296 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EBF6350E238D488000C28296 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EBF63512238D488700C28296 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EBF63513238D488700C28296 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EBF6352C238D488800C28296 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EBF6352D238D488800C28296 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EBF6352F238D488800C28296 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1.1.0;
+				DEVELOPMENT_TEAM = 9H43S77F72;
+				INFOPLIST_FILE = laserreflectiongame/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.gmail-nakataseijiinikoniko2001.laserreflectiongame";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EBF63530238D488800C28296 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1.1.0;
+				DEVELOPMENT_TEAM = 9H43S77F72;
+				INFOPLIST_FILE = laserreflectiongame/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.gmail-nakataseijiinikoniko2001.laserreflectiongame";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		EBF63532238D488800C28296 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9H43S77F72;
+				INFOPLIST_FILE = laserreflectiongameTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.gmail-nakataseijiinikoniko2001.laserreflectiongameTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/laserreflectiongame.app/laserreflectiongame";
+			};
+			name = Debug;
+		};
+		EBF63533238D488800C28296 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9H43S77F72;
+				INFOPLIST_FILE = laserreflectiongameTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.gmail-nakataseijiinikoniko2001.laserreflectiongameTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/laserreflectiongame.app/laserreflectiongame";
+			};
+			name = Release;
+		};
+		EBF63535238D488800C28296 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9H43S77F72;
+				INFOPLIST_FILE = laserreflectiongameUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.gmail-nakataseijiinikoniko2001.laserreflectiongameUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = laserreflectiongame;
+			};
+			name = Debug;
+		};
+		EBF63536238D488800C28296 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9H43S77F72;
+				INFOPLIST_FILE = laserreflectiongameUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.gmail-nakataseijiinikoniko2001.laserreflectiongameUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = laserreflectiongame;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EBF634FB238D487F00C28296 /* Build configuration list for PBXProject "laserreflectiongame" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EBF6352C238D488800C28296 /* Debug */,
+				EBF6352D238D488800C28296 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EBF6352E238D488800C28296 /* Build configuration list for PBXNativeTarget "laserreflectiongame" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EBF6352F238D488800C28296 /* Debug */,
+				EBF63530238D488800C28296 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EBF63531238D488800C28296 /* Build configuration list for PBXNativeTarget "laserreflectiongameTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EBF63532238D488800C28296 /* Debug */,
+				EBF63533238D488800C28296 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EBF63534238D488800C28296 /* Build configuration list for PBXNativeTarget "laserreflectiongameUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EBF63535238D488800C28296 /* Debug */,
+				EBF63536238D488800C28296 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EBF634F8238D487F00C28296 /* Project object */;
+}
